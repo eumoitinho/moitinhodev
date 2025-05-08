@@ -18,4 +18,3 @@ export function AccidentTypeCard({ title, imageSrc, href }: AccidentTypeCardProp
     </Link>
   )
 }
-

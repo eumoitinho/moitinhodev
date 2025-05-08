@@ -56,4 +56,3 @@ export function AnimatedText({ text }: AnimatedTextProps) {
     </motion.div>
   )
 }
-

@@ -32,4 +32,3 @@ export const skills = [
     percentage: 80,
   },
 ]
-

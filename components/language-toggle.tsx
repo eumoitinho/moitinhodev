@@ -31,4 +31,3 @@ export function LanguageToggle() {
     </Button>
   )
 }
-

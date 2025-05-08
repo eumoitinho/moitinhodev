@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     creator: "@eumoitinho",
     images: ["https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png"],
   },
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -70,6 +70,4 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'
+import "./globals.css"

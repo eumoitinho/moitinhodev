@@ -126,4 +126,3 @@ export function ProjectCard({
     </motion.div>
   )
 }
-

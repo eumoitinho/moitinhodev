@@ -9,4 +9,3 @@ export function CaseResultCard({ amount }: CaseResultCardProps) {
     </div>
   )
 }
-

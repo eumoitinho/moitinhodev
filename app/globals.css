@@ -9,8 +9,8 @@
   --card-foreground: 240 10% 3.9%;
   --popover: 0 0% 100%;
   --popover-foreground: 240 10% 3.9%;
-  --primary: 221 83% 53%; /* blue-500 */
-  --primary-foreground: 0 0% 98%;
+  --primary: 246 100% 65%; /* Azul índigo */
+  --primary-foreground: 0 0% 100%; /* Branco */
   --secondary: 240 4.8% 95.9%;
   --secondary-foreground: 240 5.9% 10%;
   --muted: 240 4.8% 95.9%;
@@ -32,8 +32,8 @@
   --card-foreground: 0 0% 98%;
   --popover: 240 10% 3.9%;
   --popover-foreground: 0 0% 98%;
-  --primary: 246 100% 65%;
-  --primary-foreground: 240 5.9% 10%;
+  --primary: 246 100% 65%; /* Azul índigo */
+  --primary-foreground: 0 0% 100%; /* Branco */
   --secondary: 240 3.7% 15.9%;
   --secondary-foreground: 0 0% 98%;
   --muted: 240 3.7% 15.9%;
@@ -81,15 +81,32 @@ button {
 /* Custom cursor styles */
 @media (min-width: 768px) {
   body {
-    cursor: none;
+    cursor: auto !important;
   }
 
   a,
   button,
   input,
   textarea,
-  [role="button"] {
-    cursor: none !important;
+  [role="button"],
+  label,
+  .cursor-pointer {
+    cursor: pointer !important;
   }
 }
 
+/* Add this to the end of the file to ensure cursor is visible */
+* {
+  cursor: auto;
+}
+
+a,
+button,
+input,
+textarea,
+select,
+label,
+[role="button"],
+.cursor-pointer {
+  cursor: pointer !important;
+}

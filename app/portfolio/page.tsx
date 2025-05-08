@@ -38,4 +38,3 @@ export default function PortfolioPage() {
     </main>
   )
 }
-

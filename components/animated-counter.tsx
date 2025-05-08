@@ -39,4 +39,3 @@ export function AnimatedCounter({ from, to, duration = 2 }: AnimatedCounterProps
 
   return <span ref={ref}>{count}</span>
 }
-

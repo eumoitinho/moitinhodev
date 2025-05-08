@@ -21,4 +21,3 @@ export function PlaceholderImage({ width, height, text, className, alt = "Placeh
 
   return <Image src={dataUri || "/placeholder.svg"} width={width} height={height} alt={alt} className={className} />
 }
-

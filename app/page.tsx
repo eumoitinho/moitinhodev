@@ -38,13 +38,7 @@ export default function Home() {
         <motion.div style={{ y, opacity }} className="absolute inset-0 z-0">
           <div className="absolute inset-0">
             <div className="relative w-full h-full">
-              <Image
-                src="/images/www.png"
-                alt="Background"
-                fill
-                className="object-cover"
-                priority
-              />
+              <Image src="/images/www.png" alt="Background" fill className="object-cover" priority />
             </div>
           </div>
           <div className="absolute inset-0 bg-black/30 dark:bg-black/60" />
@@ -83,9 +77,9 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                  <Link 
-                    href={language === "pt" ? "/curriculo.pdf" : "/resume.pdf"} 
-                    target="_blank" 
+                  <Link
+                    href={language === "pt" ? "/curriculo.pdf" : "/resume.pdf"}
+                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     {t("downloadCV")}
@@ -101,12 +95,7 @@ export default function Home() {
               className="mt-10 md:mt-0"
             >
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-gray-900">
-                <Image
-                  src="/images/heroimage.png"
-                  alt="João Moitinho"
-                  fill
-                  className="object-cover"
-                />
+                <Image src="/images/heroimage.png" alt="João Moitinho" fill className="object-cover" />
               </div>
             </motion.div>
           </div>
@@ -184,12 +173,7 @@ export default function Home() {
             >
               <div className="absolute inset-0">
                 <div className="relative w-full h-full">
-                  <Image
-                    src="/images/aboutme.png"
-                    alt="João Moitinho"
-                    fill
-                    className="object-cover"
-                  />
+                  <Image src="/images/aboutme.png" alt="João Moitinho" fill className="object-cover" />
                 </div>
               </div>
             </motion.div>
@@ -232,7 +216,7 @@ export default function Home() {
                     className="border-indigo-400 text-indigo-400 hover:bg-indigo-400/10"
                   >
                     <Link
-                      href="https://linkedin.com/in/joaomoitinho"
+                      href="https://linkedin.com/in/eumoitinho"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="LinkedIn"
@@ -249,7 +233,7 @@ export default function Home() {
                     className="border-indigo-400 text-indigo-400 hover:bg-indigo-400/10"
                   >
                     <Link
-                      href="https://behance.net/joaomoitinho"
+                      href="https://behance.net/joaomoitinh1"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Behance"
@@ -265,7 +249,7 @@ export default function Home() {
                     asChild
                     className="border-indigo-400 text-indigo-400 hover:bg-indigo-400/10"
                   >
-                    <Link href="mailto:joao.moitinho@outlook.com" aria-label="Email">
+                    <Link href="mailto:moitinhoeu@icloud.com" aria-label="Email">
                       <Mail className="h-5 w-5" />
                     </Link>
                   </Button>
@@ -495,4 +479,3 @@ export default function Home() {
     </main>
   )
 }
-

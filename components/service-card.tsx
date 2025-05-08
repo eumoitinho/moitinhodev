@@ -44,4 +44,3 @@ function getIcon(iconName: string): LucideIcon {
       return Layout
   }
 }
-

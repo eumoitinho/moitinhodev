@@ -30,4 +30,3 @@ export function SkillBar({ name, percentage, delay = 0 }: SkillBarProps) {
     </div>
   )
 }
-
