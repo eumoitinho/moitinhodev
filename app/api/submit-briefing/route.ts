@@ -100,7 +100,7 @@ export async function POST(request: Request) {
     // Enviar email para você
     const { data: emailData, error } = await resend.emails.send({
       from: "Briefing <onboarding@resend.dev>",
-      to: "moitinhoeu@icloud.com",
+      to: "joao.silva489@academico.ufgd.edu.br",
       subject: `Novo Briefing de ${data.name}`,
       html: emailHtml,
     })
